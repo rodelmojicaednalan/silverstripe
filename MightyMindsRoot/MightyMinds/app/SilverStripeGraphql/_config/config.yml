@@ -1,0 +1,6 @@
+SilverStripe\GraphQL\Manager:
+  schemas:
+    default:
+      types:
+        Home: 'Controller\GraphQL\ReadHome'
+        Contents: 'Controller\GraphQL\CreateContent'
